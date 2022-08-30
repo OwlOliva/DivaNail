@@ -1,0 +1,82 @@
+/*Акции*/
+
+.stocks{
+  width: 55%;
+  display: grid; 
+  margin: auto;
+  margin-top: 5% ;
+
+  /* background:#FFA500; */
+  /* text-align: center; */
+  margin: auto;
+}
+.stocks a{
+ color: white;
+
+}
+ .stocks>div{
+/* width: 70%; */
+
+display: grid;
+grid-template-columns: 20% 80%;
+grid-gap:5%;
+
+
+
+ 
+}
+/* .div_svg{
+  position: relative;
+  top: -450px; 
+}*/
+.stocks>div{
+
+ background-image: url("../images/Vector2.svg");
+
+background-size:contain;
+background-repeat: no-repeat;
+/* border: 1px solid #FFA500; */
+box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.25);
+ color: white;
+
+margin: 2%;
+
+}
+
+
+.stocks>div>div{
+
+padding: 5%;
+}
+
+.stocks img{
+width: 100%;
+padding: 5%;
+border-radius: 29px;
+
+}
+.stocks p{
+ font-size: 20pt;
+
+ }
+
+.stocks a{
+ font-size: 30pt;
+ /* color: white; */
+}
+.stocks a:after {
+ content: "";
+ height: 100%;
+ min-width: 4px;
+ background: #FFA500;
+ position: absolute;
+ left: 42%;
+ bottom: 0;
+ transition: all 0.5s;
+}
+
+.stocks a:hover:after {
+ min-width: 16%;
+ background: #FFA500;
+ opacity: 0.35;
+}

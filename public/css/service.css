@@ -1,0 +1,95 @@
+
+.dateTim{
+  width: 80%;
+  font-size: 20pt;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+.serv>div>div>div>div{
+ display: inline-block;
+}
+/* .serv{
+  width: 80%;
+  font-size: 20pt;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+*/
+#servi{
+  width: 50%;
+  /* font-size: 20pt; */
+  margin: auto;
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
+  color: white;
+} 
+.serv img{
+  box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 43px;
+  width: 70%;
+}
+
+
+input[type="text"],input[type="tel"],input[type="password"]{
+  background: #1B2D55;
+  border: none;
+  border-bottom: 0.5px solid #FFA500;
+  color: white;
+  font-size: 18pt;
+  margin-left: 20%;
+  width:100%;
+  /* margin-top: 2%; */
+  height: 40px;
+  /* padding-right: 2%;  */
+}
+input[type="submit"]{
+ background: #FFA500;
+ border-radius: 40px;
+ width: 200px;
+ /* height: 30px; */
+ margin-top: 5%;
+ margin-left: 35%;
+ font-size: 20pt;
+}
+label{
+  padding: 2%;
+  
+  color: white;
+  font-size: 20pt;
+}
+/* input[type="tel"]{
+  height: ;
+} */
+#formRecord{
+  width: 30%;
+  margin: auto;
+}
+.div_mast{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div_mast img{
+  box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 43px;
+  width: 200px;
+}
+
+button{
+  background: #FFA500;
+ border-radius: 40px;
+ /* width: 200px; */
+ /* height: 30px; */
+ margin-top: 5%;
+ margin-left: 35%;
+ padding: 1%;
+ font-size: 15pt;
+ text-align: center;
+ 
+ }

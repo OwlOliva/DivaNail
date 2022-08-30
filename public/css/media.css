@@ -1,0 +1,96 @@
+@media (max-width: 416px) {
+  .kopansecegun__nav {
+ 
+    outline: 6px solid #ffa500;
+    background: #ffa500;
+  
+  }
+  .kopansecegun {
+    height: 500px;
+    
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+
+  }
+  footer .menu{ 
+    font-size: 13pt;
+
+  }
+  .sbrecod{
+    margin: 0;
+   }
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact{
+    background: #1B2D55;
+    position: relative;
+    top:25%;
+    left: 15%;
+    color: white;
+    font-size: 15pt;
+    width: 75%;
+    padding: 2%;
+  }
+  iframe{
+    margin-top: 2%;
+    height: 50%;
+}
+.contact p{
+  padding: 0%;
+ }
+ .imga{
+  width: 35%;
+ }
+ nav img{
+  width: 80%;
+ }
+ .ab2{
+  display: flex;
+    flex-direction: column-reverse;
+ }
+ .ab1{
+  display: flex;
+    flex-direction: column;
+align-items: center;
+ }
+ .ab1 p{
+  text-align: center;
+ }
+ .ab2 p{
+  text-align: center;
+ }
+ .us1{
+  display: flex;
+ }
+ .us2{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+ .div_mast{
+  display: flex;
+    flex-wrap: wrap;
+ }
+ .sbrecod{
+  margin: 0;
+ }
+ #servi {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 50%;
+}
+#formRecord {
+  width: 60%;
+}
+#form_otz img{
+  width: 40%;
+ }
+}

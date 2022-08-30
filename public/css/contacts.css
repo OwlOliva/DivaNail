@@ -1,0 +1,16 @@
+.contact{
+  background: #1B2D55;
+  position: absolute;
+  top:25%;
+  left: 15%;
+  color: white;
+  font-size: 15pt;
+  width: 25%;
+  padding: 2%;
+}
+iframe{
+    margin-top: 2%;
+}
+.contact p{
+ padding: 3%;
+}

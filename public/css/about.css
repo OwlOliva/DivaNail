@@ -1,0 +1,47 @@
+.about{
+  color: white;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top:2%;
+}
+.about p{
+  padding-top: 5%;
+ font-size:18pt;
+}
+
+.ab1{
+  display: grid;
+grid-template-columns: 80% 20%;
+grid-gap:2%;
+text-align: right;
+}
+
+.ab2{
+  display: grid;
+grid-template-columns: 20% 80%;
+grid-gap:2%;
+text-align: left;
+}
+
+.about hr{
+
+  border-color: #FFA500;
+  background: #FFA500;
+  color: #FFA500;
+  margin: 2%;
+  border-radius: 10%;
+  width: 50%;
+  height: 2px;
+  /* border-color: #FFA500; */
+}
+
+.about img{
+  width: 90%;
+  box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.25);
+ border-radius: 43px;
+}
+/* 
+.ab3 img{
+  width: 50%;
+} */

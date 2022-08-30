@@ -1,0 +1,33 @@
+.price{
+  color: white;
+  max-width: 70%;
+  margin: auto;
+}
+
+.price>div{
+  padding: 2%;
+  /* background-image: url("../images/Vector1.svg"); */
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: right;
+/* border: 1px solid #FFA500; */
+  color: white;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.25);
+margin: 5%;
+}
+
+.price>div>div{
+display: grid;
+grid-template-columns: 80% 20%;
+
+}
+.price p{
+  font-size: 20pt;
+  padding:2%;
+}
+
+.hrprice{    
+    background: #e99700;
+    border-color: #FFA500;
+    height: 20px;
+  }
